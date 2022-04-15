@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    
+    <!-- Resposável pela responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--Arquivos OWL-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>LIVROSFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <img src="img/logo.png" class="logo">
+            <nav>
+                <a href="#"><i class="fa-solid fa-house"></i> Início</a>
+                <a href="#"><i class="fa-solid fa-heart"></i> Romance</a>
+                <a href="#"><i class="fa-solid fa-feather-pointed"></i></i> Poesia</a>
+                <a href="#"><i class="fa-solid fa-bars-staggered"></i>  Contos</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <div class="filme-principal">
+            <div class="container">
+                <h2 class="titulo">O LAND ROVER NEGRO E A CAIXA DE DROPS</h2>
+                <p class="descricao">Para quem procura boas estórias este livro do escritor gaúcho <b>Maximiliano da Rosa</b> reúne textos de vários gêneros como dramas urbanos e psicológicos, romance, policial, histórias de amor, surrealismo e realismo fantástico, entre outros. São várias contos curtos impactantes e emocionantes, que exploram diversas nuances da narrativa. Algumas dos textos selecionadas para compor a obra foram premiados em concursos literários no Brasil, entre eles o Concurso de Contos Paulo Leminski. Leia agora.</p>
+            
+            <button class="botao" onclick="location.href='https://www.amazon.com.br/Land-Rover-Negro-Caixa-Drops-ebook/dp/B07D98GFMD'" role="button">
+                <i class="fa-solid fa-book"></i>
+                LER AGORA                
+            </button>
+            <button class="botao" onclick="funcao1()" role="button">
+                <i class="fa-solid fa-circle-info"></i>
+                MAIS INFORMAÇÕES
+            </button>
+        </div>
+    </div>
+    
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/landrover.jpg" alt="Livro de contos Maximiliano da Rosa intitulado O Land Rover Negro e a Caixa de DROPS"></div>
+            <div class="item"><img src="img/produndo-mini.jpg" alt="Antologia poética O Dicionário do Profundo"></div>
+            <div class="item"><img src="img/sordidez.jpg" alt="Sordidez, romance de Maximiliano da Rosa"></div>
+            <div class="item"><img src="img/contos-quarentena-mini.jpg" alt="Antologia Contos da Quarentena"></div>
+            <div class="item"><img src="img/poemario-aristides.jpg" alt="Poemário Caminhos de Aristides"></div>
+            <div class="item"><img src="img/aparecida-mini.webp" alt="Poemas de Everton Cidade"></div>
+            <div class="item"><img src="img/22poemas-mini1.jpg" alt="22 poemas, coletânea do Centrol Cultural Tatuapé"></div>
+            <div class="item"><img src="img/escriba-mini.jpg" alt="Antologia de contos Escribas do Cotidiano"></div>
+            <div class="item"><img src="img/prisma-mini.webp" alt="A Palavra em Prisma"></div>
+            <div class="item"><img src="img/capa-poemas.png" alt=""></div>
+            <div class="item"><img src="img/subsolo-mini.jpg" alt="Antologa Subsolo 2022"></div>
+        </div>
+    </div>
+
+    </main>
+    <footer></footer>
+    <script src="https://kit.fontawesome.com/40fb7d89d8.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>function funcao1()
+        {
+        alert("Livro escrito por Maximiliano da Rosa.");
+        }
+        </script>
+</body>
+</html>
